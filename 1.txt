@@ -1,0 +1,16 @@
+git -> 버전관리 sw : 소스 관리
+
+c:\source\javasource
+git init
+git add
+git commit -m "메세지"
+javasource폴더에서 관리 제외
+.gitignore : 관리 안할 뺄 파일/ 폴더 작성
+.class 파일 은 관리 x
+
+-클래스 단위 ( 클래스 생성 후 시작 )
+  - 클래스 이름은 대문자로 시작 : Hello.java
+  - 화면에 결과를 출력하려면 main 메소드가 필요
+ 
+- 애플리케이션 개발
+ : 웹 어플리케이션 개발이 주 목적
