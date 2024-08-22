@@ -13,7 +13,7 @@ public class linearEquationEx {
         double n = sc.nextDouble();
 
         for (double i = 1; i < 32000; i++) {
-            for (double j = 1; j < 3200; j++) {
+            for (double j = 1; j < 32000; j++) {
                 if (a * i + b * j == n) {
                     System.out.printf("(%f,%f)\n", i, j);
                 }
