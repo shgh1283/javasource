@@ -34,5 +34,7 @@ public class IfEx3 {
             }
         }
         System.out.printf("점수 : %d, 학점 : %c%c\n", score, grade, opt);
+
+        sc.close();
     }
 }

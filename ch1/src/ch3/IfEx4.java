@@ -12,7 +12,9 @@ public class IfEx4 {
         if (num % 2 == 0) {
             System.out.println("짝수");
 
-        } else
+        } else {
             System.out.println("홀수");
+        }
+        sc.close();
     }
 }

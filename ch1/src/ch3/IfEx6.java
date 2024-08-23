@@ -18,5 +18,6 @@ public class IfEx6 {
         } else {
             System.out.println("평년");
         }
+        sc.close();
     }
 }
