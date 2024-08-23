@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package classtest;
 
 public class Method {
@@ -31,3 +32,38 @@ public class Method {
         // return;
     }
 }
+=======
+package classtest;
+
+public class Method {
+    // method 작성
+
+    // 리턴타입 메소드명(){}
+    // 정수형(byte,short,int,long), 실수형(float,double), 논리형(boolean),
+    // 문자형(char,String), 배열(타입[]), void
+
+    int method1() {
+        return 0;
+    }
+
+    double method2() {
+        return 0;
+    }
+
+    char method3() {
+        return 'a';
+    }
+
+    String method4() {
+        return "abc";
+    }
+
+    int[] method5() {
+        return new int[] { 1, 2, 3 };
+    }
+
+    void method6() {
+        // return;
+    }
+}
+>>>>>>> ed2c435241f44c6a1c804d573ef7af61a47d6ca4
