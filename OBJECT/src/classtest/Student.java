@@ -1,5 +1,8 @@
 package classtest;
 
+// this : 자기자신
+// super : 부모
+
 public class Student {
     // 속성
     private String hakbun;// 학번 s12345678
@@ -24,20 +27,23 @@ public class Student {
     }
 
     public Student(String hakbun, String name) {
-        this.hakbun = hakbun;
+        // this.hakbun = hakbun;
+        this(hakbun);
         this.name = name;
     }
 
     public Student(String hakbun, String name, String adress) {
-        this.hakbun = hakbun;
-        this.name = name;
+        // this.hakbun = hakbun;
+        // this.name = name;
+        this(hakbun, name);
         this.adress = adress;
     }
 
     public Student(String hakbun, String name, String adress, String mobile) {
-        this.hakbun = hakbun;
-        this.name = name;
-        this.adress = adress;
+        // this.hakbun = hakbun;
+        // this.name = name;
+        // this.adress = adress;
+        this(hakbun, name, adress);
         this.mobile = mobile;
     }
 
