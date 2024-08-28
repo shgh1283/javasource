@@ -22,6 +22,10 @@ public class Account {
         return owner;
     }
 
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
+
     public int getBalance() {
         return balance;
     }
