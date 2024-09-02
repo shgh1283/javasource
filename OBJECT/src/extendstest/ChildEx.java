@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package extendstest;
 
 public class ChildEx {
@@ -13,3 +14,20 @@ public class ChildEx {
 
     }
 }
+=======
+package extendstest;
+
+public class ChildEx {
+    public static void main(String[] args) {
+
+        // 부모 클래스는 자신에게 선언된 멤버와 메소드만 접근 가능
+        Parent parent = new Parent();
+        parent.print();
+        // 자식 클래스는 부모의 멤버와 메소드 + 자신의 멤버와 메소드 접근 가능
+        Child child = new Child();
+        child.print(); // 부모 메소드 호출가능
+        child.play(); // 자식 메소드 호출
+
+    }
+}
+>>>>>>> 127bf4033bfbbb9b926e7a09d6597aacb616766f
